@@ -9,6 +9,9 @@ export default {
       backgroundImage: {
         "background-start": "url('./src/assets/bg.webp')",
       },
+      backgroundColor: {
+        translucent: "rgba(255, 255, 255, 0.1)",
+      },
     },
   },
   plugins: [],
