@@ -13,7 +13,15 @@ const AboutMe = () => {
     <>
       <div className='flex justify-center gap-44 mb-28'>
         <img
-          className='rounded-full cursor-pointer border-2 border-primary w-[400px] h-[400px]'
+          className='
+            rounded-full 
+            cursor-pointer 
+            border-2 
+            border-primary 
+            w-[400px] 
+            h-[400px]
+            transition  delay-150
+            hover:shadow-custom'
           alt='pc foto'
           src={pcPhoto}
         />

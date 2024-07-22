@@ -8,8 +8,8 @@ const StepByStep = () => {
           PASSO A PASSO
         </h3>
         <p className='text-[23px] font-bold'>
-          Quais os passos para realizar uma{" "}
-          <span className='text-primary'>automação?</span>
+          Quais os passos para desenvolver um{" "}
+          <span className='text-primary'>site?</span>
         </p>
         <div className='flex justify-center mt-3 mr-24 mb-5 ml-24 gap-10'>
           <CardStep

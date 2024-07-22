@@ -1,6 +1,8 @@
 import { HiOutlineDocumentReport } from "react-icons/hi";
-import { FaRobot, FaWhatsapp } from "react-icons/fa";
+import { FaGoogle, FaWhatsapp } from "react-icons/fa";
 import CardService from "../components/cardService";
+import { AiFillApi } from "react-icons/ai";
+import { RiPagesLine } from "react-icons/ri";
 
 const Services = () => {
   return (
@@ -11,20 +13,20 @@ const Services = () => {
         </h3>
         <div className='flex mt-3 gap-4 justify-center'>
           <CardService
-            icon={
-              <HiOutlineDocumentReport
-                style={{ fontSize: "25px", color: "#2FCCDB" }}
-              />
-            }
-            content={"Criação e envio de relatórios automatizados"}
+            icon={<RiPagesLine style={{ fontSize: "25px", color: "#2FCCDB" }} />}
+            content={"Paginas de vendas e captura de leads"}
           />
           <CardService
-            icon={<FaWhatsapp style={{ fontSize: "25px", color: "#2FCCDB" }} />}
-            content={"Robô de atendimento e vendas para redes sociais e sites"}
+            icon={<AiFillApi style={{ fontSize: "25px", color: "#2FCCDB" }} />}
+            content={"Sites institucionais"}
           />
           <CardService
-            icon={<FaRobot style={{ fontSize: "25px", color: "#2FCCDB" }} />}
-            content={"Automatização de processos manuais em sistemas"}
+            icon={<FaGoogle style={{ fontSize: "25px", color: "#2FCCDB" }} />}
+            content={"Sistemas de Gestão"}
+          />
+          <CardService
+            icon={<FaGoogle style={{ fontSize: "25px", color: "#2FCCDB" }} />}
+            content={"Lojas virtuais"}
           />
         </div>
       </div>
