@@ -13,7 +13,7 @@ const CardService = ({ icon, content }) => {
           rounded-lg 
           p-5
           cursor-pointer
-          transition  delay-150
+          transition delay-150
           hover:shadow-custom'>
         <div className='border-[3px] border-primary rounded-full p-2'>
           {icon}

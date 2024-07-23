@@ -18,15 +18,11 @@ const Services = () => {
           />
           <CardService
             icon={<AiFillApi style={{ fontSize: "25px", color: "#2FCCDB" }} />}
-            content={"Sites institucionais"}
+            content={"Sites institucionais para empresas e profissionais"}
           />
           <CardService
             icon={<FaGoogle style={{ fontSize: "25px", color: "#2FCCDB" }} />}
-            content={"Sistemas de Gestão"}
-          />
-          <CardService
-            icon={<FaGoogle style={{ fontSize: "25px", color: "#2FCCDB" }} />}
-            content={"Lojas virtuais"}
+            content={"Lojas virtuais e sistemas internos completos"}
           />
         </div>
       </div>

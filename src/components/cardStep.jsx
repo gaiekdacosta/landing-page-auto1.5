@@ -11,7 +11,9 @@ const CardStep = ({ content, step }) => {
           border-primary 
           rounded-lg 
           cursor-pointer
-          text-left'>
+          text-left
+          transition delay-150
+          hover:shadow-custom'>
         <span className='font-semibold mr-0.5'>{step}.</span>
         <p>{content}</p>
       </div>

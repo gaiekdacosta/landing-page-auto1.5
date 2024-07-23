@@ -23,14 +23,15 @@ const Start = () => {
               BEM-VINDO
             </p>
             <h1 className='text-[40px] font-extrabold leading-10'>
-              Seja para capturar leads, lançar produtos ou promover eventos, 
+              Desde paginas de vendas 
+              até sistemas de gestão completos eu
               tenho a solução{' '}
               <span className='text-primary'>
                 ideal para o seu negócio.
               </span>
             </h1>
             <h3 className='text-[18px] leading-5 mt-2'>
-              Descubra a Landing Page Perfeita para Aumentar as Vendas.
+              Descubra como eu posso facilitar as coisas na sua empresa.
             </h3>
           </div>
           <div className='flex w-[40%] justify-center items-center'>

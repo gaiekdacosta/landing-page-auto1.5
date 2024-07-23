@@ -30,21 +30,21 @@ const AboutMe = () => {
             SOBRE MIM
           </h3>
           <p className='font-semibold text-[22px] leading-6'>
-            Evite erros, execute atividades rotineiras de forma eficiente
+            Um pouco da minha história 
+            até aqui como desenvolvedor
           </p>
           <p>
-            Olá! Sou Gaiek da costa, um freelancer apaixonado por simplificar
-            processos e otimizar as coisas. Com mais de 3 anos de experiência em
-            desenvolvimento de scripts.
+            Olá! Sou Gaiek da costa, um desenvolvedor apaixonado por simplificar
+            processos e otimizar as coisas. Com mais de 3 anos de mercado no
+            desenvolvimento de aplicações web.
             <br />
             <br />
-            Meu objetivo é oferecer soluções personalizadas de automação que
-            permitam a você trabalhar da melhor forma.
+            Meu compromisso é fornecer soluções personalizadas de sites modernos, 
+            atendendo às necessidades únicas dos meus clientes.
             <br />
             <br />
-            Desde a criação de fluxos de trabalho eficientes até o
-            desenvolvimento de scripts e integrações personalizadas, estou aqui
-            para simplificar sua vida.
+            Gosto sempre de escutar os problemas dos meus clientes e usuários 
+            e sempre penso de uma forma diferente para resolver um problema.
           </p>
           <button
             onClick={whatsappLink}
@@ -59,7 +59,8 @@ const AboutMe = () => {
                 p-2 
                 text-black 
                 font-bold 
-                '>
+                transition delay-150
+                hover:shadow-custom'>
             <FaWhatsapp style={{ fontSize: "18px" }} /> Enviar mensagem agora
           </button>
         </div>
